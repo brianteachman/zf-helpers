@@ -2,14 +2,14 @@
 /**
  * View Helper for configuring and displaying coderwall blog badges.
  */
-class Zend_View_Helper_CoderWall extends Zend_View_Helper_Abstract
+class Zend_View_Helper_CoderwallBadge extends Zend_View_Helper_Abstract
 {
     /**
      * @param string $username Username on coderwall.com
      * @param boolean $orientation Defaults to horizontal, set true for vertical layout
      * @return string Returns configured HTML <section> string
      */
-    public function coderWall($username, $vertical=false) {
+    public function coderwallBadge($username, $vertical=false) {
 
         $orientation = $vertical ? 'vertical': 'horizontal';
 

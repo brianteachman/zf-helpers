@@ -7,10 +7,10 @@ zf-helpers
 
 #### Coderwall's blog badge helper.
 
-1. If your application is not configured to look elsewhere, add CoderWall.php to your Zend/View/Helpers directory.
+1. If your application is not configured to look elsewhere, add CoderwallBadge.php to your Zend/View/Helpers directory.
 
 2. In your view script add:
 
-* for horizontal layout: `<?php echo $this->coderWall('username') ?>`
+* for horizontal layout: `<?php echo $this->coderwallBadge('username') ?>`
 
-* for verticle layout: `<?php echo $this->coderWall('username', true) ?>`
+* for verticle layout: `<?php echo $this->coderwallBadge('username', true) ?>`
