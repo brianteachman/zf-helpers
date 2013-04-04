@@ -1,9 +1,16 @@
 zf-helpers
 ==========
 
-Zend Framework view helpers
+### [Zend Framework 1.x view helpers](http://framework.zend.com/manual/1.12/en/zend.view.helpers.html)
 
-1. Coderwall's blog badge helper.
+---
 
-    a. If your application is not configured to look elsewhere, add CoderWall.php to your Zend/View/Helpers directory.
-    b. In your view script add: `<?php echo $this->coderWall('username', 1) ?>`
+#### Coderwall's blog badge helper.
+
+1. If your application is not configured to look elsewhere, add CoderWall.php to your Zend/View/Helpers directory.
+
+2. In your view script add:
+
+* for horizontal layout: `<?php echo $this->coderWall('username') ?>`
+
+* for verticle layout: `<?php echo $this->coderWall('username', true) ?>`
