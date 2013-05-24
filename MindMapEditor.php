@@ -34,7 +34,7 @@ class Zend_View_Helper_MindMapEditor extends Zend_View_Helper_Abstract
      * @param  string   $secret MindMeister API secret key
      * @return string           Return HTML map widget on success or HTML error message
      */
-    public function mindMapEditor($params, $secret, $width="800", $height="600") {
+    public function mindMapEditor($params, $secret, $height="600", $width="800") {
 
         $FAILED = false;
 
